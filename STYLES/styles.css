@@ -1,0 +1,205 @@
+/*SELECTOR UNIVERSAL*/
+* { margin: 0;
+    padding: 0;
+}
+
+/*FUENTES*/
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+/*HEADER*/
+.logo {
+    width: 12%;
+    margin-top: 0px;
+}
+.opciones-navbar{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar-buscar {
+    margin-top: 10px;
+}
+.buscar {
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-border-color: #000000;
+}
+
+/*WHATSAPP*/
+.whatsapp {
+    position: fixed;
+    bottom: 35px;
+    right: 45px;
+}
+.btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000; 
+}
+
+/*FOOTER*/
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: black;
+    padding: 30px 0px 20px 0px;
+    margin-top: 50px;
+}
+
+/*CARRUSEL*/
+.main-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.carrusel-container {
+    width: 50%;
+    margin-top: 50px;
+}
+
+/*GALERÍA DE PRODUCTOS*/
+.main-productos{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}  
+.grid-productos{
+    display: grid;
+    grid-template-rows: 50px repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 5%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}   
+.titulo-productos{
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #0000;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #0000;
+    --bs-btn-hover-border-color: #0000;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: #0000;
+    --bs-btn-active-border-color: #0000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #0000;
+    --bs-btn-disabled-border-color: #0000;
+}
+
+/*DATOS*/
+.datos {
+    margin-top: 5%;
+}
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px; 
+}
+.contacto {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+/*CARRITO*/
+.carrito-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+.carrito-img {
+    width: 50%;
+    margin-left: 20%;
+}
+.carrito-texto {
+    text-align: center;
+}
+
+/*INICIO DE SESIÓN*/
+.inicio-de-sesion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 50%;
+}
+
+/*MEDIA QUERYS*/
+@media only screen and (max-width: 420px) {
+    .carrusel-container {
+        width: 100%;
+    }
+    .logo {
+        width: 40%;
+    }
+    .main-productos {
+        width: 100%;
+    }
+    .inicio-de-sesion {
+        width: 80%;
+    } 
+    .main-productos{
+        margin: 0%;
+    }
+    .grid-productos{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 30px;
+        padding-top: 10%;
+    }   
+    .titulo-productos{
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    .whatsapp {
+        position: fixed;
+        bottom: 15px;
+        right: 30px;
+    }
+    .carrito-container {
+        margin-top: 35%;
+    }
+}
+    
+    
