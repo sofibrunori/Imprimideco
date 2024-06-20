@@ -1,0 +1,9 @@
+/*CARRUSEL*/
+@import "extend";
+
+.main-index {
+    @extend .flex;
+}
+.carrusel-container {
+    @include forma (50%, 50px, 0%, 0%, 0%)
+}

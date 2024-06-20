@@ -1,0 +1,9 @@
+/*INICIO DE SESIÓN*/
+@import "extend";
+
+.inicio-de-sesion-container {
+    @extend .flex
+}
+.inicio-de-sesion {
+    @include forma (50%, 80px, 0%, 0%, 0%)
+}

@@ -1,0 +1,14 @@
+/*CARRITO*/
+@import "extend";
+
+.carrito-container {
+    @extend .flex;
+    align-items: center;
+    margin-top: 12%;
+}
+.carrito-img {
+    @include forma (50%, 0%, 0%, 20%, 0)
+}
+.carrito-texto {
+    text-align: center;
+}

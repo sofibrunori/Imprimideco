@@ -1,0 +1,35 @@
+/*GALERÍA DE PRODUCTOS*/
+@import "extend";
+
+.main-productos{
+    margin: 2%;
+    @extend .flex
+}  
+.grid-productos{
+    display: grid;
+    grid-template-rows: 50px repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 5%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}   
+.titulo-productos{
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000;
+    --bs-btn-border-color: #000;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-hover-border-color: #000;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #000;
+    --bs-btn-active-border-color: #000;
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #000;
+    --bs-btn-disabled-border-color: #000;
+}
