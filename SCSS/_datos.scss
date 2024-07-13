@@ -4,10 +4,20 @@
 .datos {
     margin-top: 5%;
 }
+.datos-titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
 .contacto-container {
     margin-top: 50px; 
     @extend .flex
 }
 .contacto {
-    @include forma (100%, 0%, 10%, 0%, 0%)
+    height: 50%;
+    @include forma (50%, 0%, 10%, 0%, 0%)
+}
+.mensaje-texto {
+    line-height: 50% !important;
 }
