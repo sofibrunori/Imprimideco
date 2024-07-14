@@ -4,6 +4,7 @@
 .carrito-container {
     @extend .flex;
     align-items: center;
+    flex-direction: column;
     margin-top: 12%;
 }
 .carrito-img {

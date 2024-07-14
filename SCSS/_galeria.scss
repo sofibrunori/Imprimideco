@@ -14,9 +14,12 @@
     margin-bottom: 20px;
     border-radius: 4%;
 }
-
+.img-galeria:hover {
+    width: 100%;
+}
 .galeria-titulo {
     grid-column: 1 / 6;
     justify-self: center;
     margin-top: 12%;
+    margin-bottom: 0%;
 }
