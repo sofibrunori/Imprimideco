@@ -17,14 +17,13 @@
 }   
 .titulo-productos{
     grid-column: 1 / 4;
-    grid-row: 1 / 2;
     justify-self: center;
 }
 #obras {
     margin-left: 11%;
 }
 .btn-primary {
-    --bs-btn-color: #fff;
+    --bs-btn-color: #ffffff;
     --bs-btn-bg: #000;
     --bs-btn-border-color: #000;
     --bs-btn-hover-color: #000;

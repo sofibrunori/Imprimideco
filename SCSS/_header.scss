@@ -1,11 +1,9 @@
 /*HEADER*/
 .logo {
-    width: 12%;
-    margin-top: 0px;
+    @include forma (12%, 0px, 0%, 0px, 0%)
 }
 .opciones-navbar{
-    margin-top: 10px;
-    margin-left: 20px;
+    @include forma (100%, 10px, 0%, 20px, 0%)
 }
 .navbar-buscar {
     margin-top: 10px;

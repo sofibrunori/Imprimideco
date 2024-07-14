@@ -6,6 +6,7 @@
 .ver-index {
     margin-top: 5%;
     margin-bottom: -3%;
+    @include forma (100%, 5%, -3%, 7%, 0%)
 }
 .ver {
     padding: 60px;
